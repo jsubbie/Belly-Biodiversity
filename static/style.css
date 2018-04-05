@@ -1,0 +1,99 @@
+/*** general page formatting ***/
+
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-style: italic; 
+}
+
+.jumbotron {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(40, 100, 150);
+  max-height: 250px;
+}
+
+/*** sidebar ***/
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  width: 200px;
+
+}
+
+.sb-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link{
+  margin-right: 4px;
+  color: rgb(199, 65, 65);
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar-heading {
+  text-transform: uppercase;
+  margin-left: 20px;
+
+}
+
+/*** text formatting ***/
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p.jumtext { 
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
+
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*** utilities ***/
+
+.border-info { border-color: tomato}
+
+#selDataset {
+  margin-left: 25px;
+  padding-top: 1rem;
+
+}
+
+
+
+
